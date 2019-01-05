@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "timer app",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.1"
+  },
+  "scripts": {
+    "electron": "electron src",
+    "start": "nodemon --watch ./src/**/* --watch . --exec yarn electron"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
